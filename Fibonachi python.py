@@ -1,0 +1,10 @@
+n=int(input('enter n'))
+f0=0
+f1=1
+i=2
+while i<=n:
+    f=f0+f1
+    print('f('+str(i)+')='+str(f))
+    f0=f1
+    f1=f
+    i=i+1

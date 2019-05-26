@@ -1,0 +1,13 @@
+l=[]
+l=[1,2,[4,5],6]
+len(l)
+l[1]=5
+print(l[1]*5)
+l.append(14)
+print(l)
+l.extend([[5,6,7]])
+print(l)
+l.remove(5)
+print(l)
+del(l[1])
+print(l)
